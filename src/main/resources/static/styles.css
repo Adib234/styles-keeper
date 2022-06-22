@@ -1,0 +1,302 @@
+.root {
+  width: 100%;
+  max-height: 1000px;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+}
+.box {
+  border: 2px solid #000;
+  padding: 14px;
+  margin-bottom: 24px;
+}
+.section {
+  border-top: 1px solid #000;
+  padding-top: 12px;
+  margin-top: 32px;
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+.small-gap {
+  margin-top: 14px;
+}
+.small-margin {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.bold {
+  font-weight: 600;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+.center {
+  text-align: center;
+}
+.large {
+  font-size: 28px;
+}
+.medium {
+  font-size: 20px;
+}
+.small {
+  font-size: 10px;
+}
+.medium-small {
+  font-size: 14px;
+}
+.header {
+  padding-top: 12px;
+  padding-bottom: 45px;
+  font-size: 14px;
+}
+.signature {
+  width: 70%;
+  height: auto;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+}
+table tr,
+table td {
+  vertical-align: top;
+}
+table.half td {
+  width: 50%;
+}
+table.small td:first-child {
+  width: 20%;
+}
+table.small td {
+  width: 80%;
+}
+table.quarter td {
+  width: 90px;
+  height: 115px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.otcItem {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  padding-right: 20px;
+  height: 25px;
+  width: 30px;
+}
+.pharmacyLogo {
+  width: 78px;
+  height: 33px;
+}
+
+@media print {
+  .pagebreak {
+    page-break-before: always;
+  }
+}
+
+.receiptContainer {
+  margin-right: auto;
+  font-family: "Arial";
+  font-size: 11px;
+  font-weight: bold;
+  width: 265px;
+}
+
+.titleContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+}
+
+.addressText {
+  margin-top: 2px;
+}
+
+.merchantId {
+  margin-top: 24px;
+}
+
+.oneIndicator {
+  margin-left: 12px;
+}
+
+.nameAndDate {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 36px 0 0;
+}
+
+.transactionDate {
+  margin-top: 50px;
+  text-align: right;
+}
+
+.heartIcon {
+  height: 9px;
+}
+
+.heartImg {
+  margin-left: -11px;
+  align-self: center;
+}
+
+.listIconContainer {
+  padding-left: 4px;
+  display: flex;
+}
+
+.rxListContainer {
+  margin: 8px 0 14px 0;
+}
+
+.medPrescription {
+  padding-bottom: 6px;
+  padding-top: 10px;
+}
+
+.prescriptionContainer {
+  width: 100%;
+}
+
+.prescriptionSection {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4px;
+}
+
+.smallQuant {
+  min-width: 45px;
+}
+
+.mediumQuant {
+  min-width: 50px;
+}
+
+.quantity {
+  min-width: 75px;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.thanksSection {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.noteSection {
+  margin: 4px 0;
+}
+
+.imageContainer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  margin-left: -8px;
+  margin-top: 60px;
+  padding: 8px;
+  width: 235px;
+}
+
+.paymentContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.signatureImage {
+  max-width: 235px;
+}
+
+.itemsScanned {
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+
+.itemSpacer {
+  margin-top: 4px;
+}
+
+.bigBold {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.biggerBold {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  margin-top: 4px;
+}
+
+.ticketContainer {
+  margin-right: 20px;
+  width: 265px;
+}
+
+.ticketNumberOnly {
+  font-size: 36px;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  margin: 70px 0;
+  text-align: right;
+}
+
+.medSpacer {
+  margin-top: 6px;
+}
+
+.smallSpacer {
+  margin-top: 2px;
+}
+
+.smallTicketText {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -1px;
+}
+
+.smallText {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.name {
+  flex: 1;
+}
+
+.shortBar {
+  border-top: 1px solid black;
+  margin-right: 20px;
+}
+
+.bar {
+  border-top: 1px solid black;
+  margin: 2px 0;
+}
+
+.smallBar {
+  border-top: 1px solid black;
+  margin-top: 16px;
+}
+
+.pageContainer {
+  display: flex;
+}
+
+@media print {
+  .pagebreak {
+    page-break-before: always;
+  }
+}
