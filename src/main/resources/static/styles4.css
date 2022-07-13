@@ -32,3 +32,12 @@
   @media print {
     .pagebreak { page-break-before: always; }
   }
+.transactionDate {
+    margin-top: 50px;
+    text-align: right;
+  }
+.bigBold {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
