@@ -89,20 +89,6 @@
      width: 78px;
      height: 33px;
 }
- .transactionDate {
-     margin-top: 50px;
-     text-align: right;
-}
- .bigBold {
-     font-size: 12px;
-     font-weight: bold;
-}
- .titleContainer {
-     align-items: center;
-     display: flex;
-     flex-direction: column;
-     padding-top: 16px;
-}
  @media print {
      .pagebreak {
          page-break-before: always;
